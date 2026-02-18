@@ -1,0 +1,40 @@
+{
+  "Sequence": [
+    {
+      "comment": "Inicia com Branco Puro por 2 segundos",
+      "type": "color",
+      "rgb": [255, 255, 255],
+      "wait": 2
+    },
+    {
+      "comment": "Transição suave (Gradiente) para Preto total em 2 segundos",
+      "type": "gradient",
+      "rgb": [0, 0, 0],
+      "wait": 2
+    },
+    {
+      "comment": "Muda para Cinza por 1 segundo",
+      "type": "color",
+      "rgb": [200, 200, 200],
+      "wait": 1
+    },
+    {
+      "comment": "Efeito de Alerta: Transição rápida para Vermelho",
+      "type": "gradient",
+      "rgb": [255, 0, 0],
+      "wait": 0.5
+    },
+    {
+      "comment": "Vaporwave: Rosa Choque estático",
+      "type": "color",
+      "rgb": [255, 113, 206],
+      "wait": 1.5
+    },
+    {
+      "comment": "Gradiente final para Azul Ciano antes do Loop",
+      "type": "gradient",
+      "rgb": [1, 205, 254],
+      "wait": 3
+    }
+  ]
+}
